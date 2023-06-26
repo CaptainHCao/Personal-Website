@@ -1,0 +1,42 @@
+body {
+	/*background: url(img/background.jpg) no-repeat;*/  
+	background-size: cover;
+}
+.connectingImg {
+	height: 400px;
+	display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.box {
+	height: 400px;
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	color: white;
+	font-family: 'Courier New', monospace;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);	
+	font-size: 30px;
+}
+footer {
+  	color: white;
+  	text-align: center;
+}
+
+@keyframes changeBg1 { from {background-image: url(img/background.jpg);} to {background-image: url(img/card1.jpg)}}
+
+@keyframes changeText1 { from {opacity:0;} to {opacity: 1}}
+
+@keyframes returnBg1 { from {background-image: url(img/card1.jpg);} to {background-image: url(img/background.jpg)}}
+
+@keyframes returnText1 { from {opacity:0;} to {opacity: 1}}
+
+@keyframes changeBg2 { from {background-image: url(img/background.jpg);} to {background-image: url(img/card2.jpg)}}
+
+@keyframes changeText2 { from {opacity:0;} to {opacity: 1}}
+
+@keyframes returnBg2 { from {background-image: url(img/card2.jpg);} to {background-image: url(img/background.jpg)}}
+
+@keyframes returnText2 { from {opacity:0;} to {opacity: 1}}
+
