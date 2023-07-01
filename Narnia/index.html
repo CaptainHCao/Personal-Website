@@ -1,0 +1,44 @@
+<head>
+	<title>A video game?</title>
+</head>
+<style>
+	body {
+		background-color: cyan;
+	}
+
+	#canvas {
+		position: relative;
+		z-index: 1;
+	}
+
+	#cooldown-bar {
+		position: relative;
+		top: 1%;
+		left: 1%;
+		width: 10%;
+		height: 2%;
+		border: 2px solid #000;
+		z-index: 2;
+	}
+
+	#cooldown-fill {
+		position: relative;
+		height: 100%;
+		background-color: #3498db;
+		width: 0%;
+		transition: width 0.1s;
+	}
+</style>
+
+<canvas id="c" style="position:absolute; left:0px; top:0px;"></canvas>
+<div id="cooldown-bar">
+	<div id="cooldown-fill"></div>
+</div>
+
+<script src="data/damages.js"></script>
+<script src="data/stats.js"></script>
+<script src="data/map0.js"></script>
+<script src="data/character0.js"></script>
+<script src="data/collisions.js"></script>
+<script src="classes.js"></script>
+<script src="index.js"></script>
