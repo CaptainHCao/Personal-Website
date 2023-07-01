@@ -226,7 +226,7 @@ function forwardToNewDestination(portalName) {
       		if (result) {
         		// User clicked OK, perform the desired action
         		// Add your code here
-        		window.location.href = "index.html";
+        		window.location.href = "../index.html";
 				portalCooldown = 400
 				resetKeys()
       		} else {
